@@ -407,6 +407,9 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
+.btn:hover {
+  background: #99ccff;
+}
 
 .default {
   background-color: #58e1c1;
@@ -661,7 +664,6 @@ a {
     justify-content: flex-end;
     align-items: center;
   }
-
   .nav-link {
     flex-basis: 100px;
   }

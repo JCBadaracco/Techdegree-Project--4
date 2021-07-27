@@ -10,7 +10,10 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+  &:hover{
+    background: lighten(#036, 60%)
   }
+}
   
   .default {
     background-color: $primary-color;
