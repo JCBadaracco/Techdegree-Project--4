@@ -372,8 +372,7 @@ a {
   color: #58e1c1;
   margin-left: 10px;
 }
-
-.headline-secondary {
+.headline-primary-secondary {
   font-weight: 300;
   color: #777;
 }
@@ -463,7 +462,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -472,8 +470,7 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
-.nav-link:hover {
+.nav:hover {
   color: #fff;
   background-color: #58e1c1;
 }

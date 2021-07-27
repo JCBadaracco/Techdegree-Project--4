@@ -24,13 +24,12 @@
 .headline-primary {
     color: $primary-color;
     margin-left: 10px;
-  }
   
-  .headline-secondary {
+  &-secondary {
     font-weight: 300;
     color: $font-color;
   }
-  
+}
   .link {
     color: $default-color;
     font-weight: 700;
