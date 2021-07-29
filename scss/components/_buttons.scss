@@ -3,34 +3,19 @@
 /* ============================================= */
 
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
-  &:hover{
-    background: lighten(, 10%)
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+@each $key, $color in $button-types {
+  .#{$key}{
+    background-color: $color;
+    &:hover {
+      background-color: lighten($color, 10%);
+    }
   }
 }
-  
-  .default {
-    background-color: $primary-color;
-  }
-  
-  .error {
-    background-color: $error-color;
-  }
-  
-  .info {
-    background-color: $info-color;
-  }
-  
-  .success {
-    background-color: $success-color;
-  }
-  
-  .warning {
-    background-color: $warning-color;
-  }
